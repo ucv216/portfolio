@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Varnit | Portfolio</title>
+
+<!-- External CSS Simulation -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Internal CSS -->
+<style>
+    h2 {
+        letter-spacing: 2px;
+        color: #222;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+    <div class="overlay">
+        <h1 style="color:#fff;">Varnit</h1> <!-- Inline CSS -->
+        <p>Creative Developer • Tech Enthusiast • Problem Solver</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav class="nav">
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Smart Portfolio</h3>
+            <p>Minimal, responsive portfolio using HTML & CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page UI</h3>
+            <p>Modern UI with hover animations and clean layout.</p>
+        </div>
+
+        <div class="card">
+            <h3>College Mini Project</h3>
+            <p>Academic project demonstrating frontend skills.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I’m Varnit, a passionate developer who enjoys building clean,
+        user-friendly interfaces and learning new technologies.
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 Varnit | Designed with ❤️</p>
+</footer>
+
+</body>
+</html>
+
+<!-- ================= CSS (style.css) ================= -->
+
+<style>
+/* External CSS */
+
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.overlay h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: #e68900;
+}
+
+/* NAV */
+.nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: #ff9800;
+}
+
+/* SECTION */
+.section {
+    padding: 60px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* ABOUT */
+.about {
+    background: #222;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+</style>
